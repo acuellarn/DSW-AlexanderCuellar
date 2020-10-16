@@ -10,7 +10,6 @@ body
 }
 
 header{
-    width: 100%;
     border: 0.1em #005883 solid;
     border-radius: 0.5em;
 }
@@ -35,7 +34,6 @@ header img{
     height: 5.52;
 }
 nav{
-    width: 99%;
     margin: 0.5em 0 0.5em 0 ;
     height: 2em;
     background-color: #005883;
@@ -45,12 +43,12 @@ nav{
 .menu {
     list-style: none;
     padding: 0px;
-    color:   #fff;
+    color:#fff;
 }
 
 .menu_item{
     display: block;
-    width: 24%  ;
+    width: 10em;
     height: 1.9em;
     float: left;
 }
@@ -100,15 +98,7 @@ section
 {
  margin: 0.3em;
  padding: 0em;
- width: 99%;
- position: relative;
 }
-
-
-#twitter-widget-0{
-    width: 100% !important;
-}
-
 .article_container{
     width: 75%;
     height: 100%;
@@ -143,7 +133,6 @@ footer{
     background-color: #005883;
     border-radius: 0.5em;
     height: 1.9em;
-    width: 100%;
 }
 
 footer a{
