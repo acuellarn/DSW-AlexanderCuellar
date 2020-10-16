@@ -12,6 +12,7 @@ body
 header{
     border: 0.1em #005883 solid;
     border-radius: 0.5em;
+    width: 100%;
 }
 
 #HeaderTitle{
@@ -30,8 +31,8 @@ header{
 }
 
 header img{
-    width: 5.3em;
-    height: 5.52;
+    width: 100%;
+    height: 100%;
 }
 nav{
     margin: 0.5em 0 0.5em 0 ;
@@ -140,7 +141,7 @@ footer a{
     font-size: 1.2em;
     display: block; 
     margin-left: 0.3em;
-    width: 5em;
+    width: 30%;
     color: #fff ;
     height: 100%;
     text-align: center;
