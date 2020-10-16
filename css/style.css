@@ -48,7 +48,7 @@ nav{
 
 .menu_item{
     display: block;
-    width: 10em;
+    width: 25%;
     height: 1.9em;
     float: left;
 }
@@ -152,13 +152,21 @@ footer a:hover{
     background-color: #fff;
 }
 
-a:visited{
+.btnMenu:visited, .btnMenu:link{
     text-decoration: none;
     color: #fff;
+}
+
+.btnMenu:hover{
+    color: #000;
 }
 
 .article_content img{
     display: block;
     margin: auto;
     
+}
+
+#twitter-widget-0{
+    width: 100% !important;
 }
