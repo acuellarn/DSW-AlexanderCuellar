@@ -43,7 +43,7 @@ nav{
 .menu {
     list-style: none;
     padding: 0px;
-    color:   #fff;
+    color:#fff;
 }
 
 .menu_item{
@@ -152,7 +152,7 @@ footer a:hover{
     background-color: #fff;
 }
 
-a:visited{
+a:visited, a:link{
     text-decoration: none;
     color: #fff;
 }
