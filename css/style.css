@@ -101,7 +101,7 @@ section
  padding: 0em;
 }
 .article_container{
-    width: 75%;
+    width: 70%;
     height: 100%;
     display: inline-block;
     vertical-align: top;
@@ -125,7 +125,8 @@ article{
 }
 .twitter_add{
     display: inline-block;
-    width: 23%;
+    width: 29%;
+    height: 100%    ;
 }
 
 footer{
@@ -171,5 +172,9 @@ footer a:hover{
 }
 
 #twitter-widget-0{
+    width: 100% !important;
+   
+}
+..r-1ylenci{
     width: 100% !important;
 }
