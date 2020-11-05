@@ -7,12 +7,14 @@ body
  font-family: "angsana new","angsana new bold";
  font-size: 1vw;
  margin: 0.3em;
+ background-color: #ece9e95c;
 }
 
 header{
     border: 0.1em #005883 solid;
     border-radius: 0.5em;
     width: 100%;
+    background-color: #005883;
 }
 
 #HeaderTitle{
@@ -21,6 +23,7 @@ header{
    text-align: center;
    vertical-align: top;
    margin-top: 7%;
+   color: #fff  ;
 }
 
 #HeaderImg{
@@ -28,11 +31,14 @@ header{
     width: 15%;
     margin: 1em 0em;
     text-align: center;
+    border: #fff solid;
+    border-radius: 1.5em;
 }
 
-header img{
+header #HeaderImg img{
     width: 100%;
     height: 100%;
+    border-radius: 1.5em;
 }
 nav{
     margin: 0.5em 0 0.5em 0 ;
@@ -171,10 +177,18 @@ footer a:hover{
     
 }
 
+#author_photo{
+    width: 20em;
+    height: 20em;
+    border-radius: 50%;
+}
 #twitter-widget-0{
     width: 100% !important;
+    max-height: 35em;
+    max-width: 100%;
    
 }
-..r-1ylenci{
-    width: 100% !important;
+
+.embed_content{
+    margin: 0% 25%; 
 }
